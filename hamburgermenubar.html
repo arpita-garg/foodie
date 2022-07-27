@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Offcanvas Menubar</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/all.min.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+						<!--OFFCANVAS MENUBAR-->
+
+							<!--ONCANVAS BUTTON-->
+	<div class="position-relative">						
+		<button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+		Register
+		</button>
+	</div>
+							<!--ONCANVAS BUTTON ENDS-->
+							
+	<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+	
+		<div class="offcanvas-header">
+			<h5 class="offcanvas-title" id="offcanvasExampleLabel"></h5>		
+		</div>
+							
+							<!--OFFCANVAS BODY-->
+		
+		<div class="offcanvas-body bg-secondary">
+		
+			
+			<div class="justify-content-center text-center">
+					<h3>Offcanvas</h3>
+					<br>
+					<h5><a href="">Link</a></h5>
+					<a href="#" class="list-group-item list-group-item-action py-2 ripple active">
+						<i class="fas fa-chart-area fa-fw me-3"></i><span>Webiste traffic</span>
+					</a>
+					<h5><a href="">Link</a></h5>
+					<h5><a href="">Link</a></h5>
+					
+					 </div>
+							
+							<!--DROPDOWN-->
+					
+			<div class="dropdown mt-3" >			
+					<button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown">Dropdown button</button>
+						<ul class="dropdown-menu">
+						<li><a href="#" class="dropdown-item">Link1</a></li>
+						<li><a href="#" class="dropdown-item">Link2</a></li>
+						<li><a href="#" class="dropdown-item">Link3</a></li>			
+					</ul>			
+			</div>	
+			 <div class="dropdown mt-3">
+          <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+            Dropdown button
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </div>
+			
+		</div>			
+										<!--OFFCANVAS BODY ENDS-->
+		
+	</div>								
+	
+					<!--OFFCANVAS MENUBAR ENDS-->
+	
+				<!--VENDOR JS FILE-->
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

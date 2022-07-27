@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Offcanvas Menubar</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/all.min.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+						<!--OFFCANVAS MENUBAR-->
+
+							<!--ONCANVAS BUTTON-->
+					
+			<button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+			Register
+			</button>
+						<!--ONCANVAS BUTTON ENDS-->
+			
+		
+	<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+	
+		<div class="offcanvas-header">
+			<div class="container">
+				<div class="row">
+						
+					<div class="col-md-2">
+					</div>
+					
+					<div class="col-md-4">
+						<button type="button" class="btn btn-secondary btn-block mb-3 btn-lg">Login</button>
+					</div>
+					
+					<div class="col-md-4">
+						<button type="button" class="btn btn-primary btn-block mb-3 btn-lg">Register</button>
+					</div>
+					
+					<div class="col-md-2">
+					</div>
+					<br>
+					<div class="col justify-content-center">
+						<h5 class="offcanvas-title justify-content-center" id="offcanvasExampleLabel">Login in with:</h5>	
+						
+							<button type="button" class="btn btn-link btn-floating mx-1">
+								<i class="fab fa-facebook"></i>
+							</button>
+							
+							<button type="button" class="btn btn-link btn-floating mx-1">
+								<i class="fab fa-google"></i>
+							</button>
+
+							<button type="button" class="btn btn-link btn-floating mx-1">
+								<i class="fab fa-twitter"></i>
+							</button>
+
+							<button type="button" class="btn btn-link btn-floating mx-1">
+								<i class="fab fa-github"></i>
+							</button>
+					</div>
+
+					
+				</div>
+			</div>
+		</div>
+		
+		<div class="divider d-flex align-items-center my-4">
+            <p class="text-center fw-bold mx-3 mb-0">Or:</p>
+         </div>
+							
+							<!--OFFCANVAS BODY-->
+		
+		<div class="offcanvas-body">
+		
+		<!-----------------NAME INPUT----------------------->
+		
+			<div class="form-outline mb-4">
+				<h5>Username:</h5> <input type="email" id="form3Example3" class="form-control form-control-lg"
+				placeholder="Enter username" />
+          </div>
+		
+			<!-----------------EMAIL INPUT----------------------->
+		
+			<div class="form-outline mb-4">
+				<h5>Email address:</h5> <input type="email" id="form3Example3" class="form-control form-control-lg"
+				placeholder="Enter a valid email address" />
+          </div>
+			
+				<!-----------------PASSWORD INPUT----------------------->
+							
+			<div class="form-outline mb-3">
+				<h5>Email Password:</h5><input type="password" id="form3Example4" class="form-control form-control-lg"
+				placeholder="Enter password" />
+			</div>
+				<br>
+			
+				   <!---------------------- CHECKBOX ------------------------>
+
+			<div class="form-check d-flex justify-content-center mb-4">
+				<input class="form-check-input me-2" type="checkbox" value="" id="registerCheck" checked aria-describedby="registerCheckHelpText" />
+					<label class="form-check-label" for="registerCheck">
+					<p><b>I have read and agree to the terms</b></p>
+					</label>
+			</div>
+			
+			  <!---------------------- LOGIN BUTTON ------------------------>
+			
+			<button type="submit" class="btn btn-primary btn-block mb-3">Sign in</button>
+			
+
+
+
+		</div>			
+										<!--OFFCANVAS BODY ENDS-->
+		
+	</div>								
+
+					<!--OFFCANVAS MENUBAR ENDS-->
+	
+				<!--VENDOR JS FILE-->
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

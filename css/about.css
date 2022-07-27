@@ -1,0 +1,13 @@
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+#head{
+		color:green;
+		text-align: right;
+		margin-bottom: 40px;
+}
